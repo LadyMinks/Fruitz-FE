@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, body>div {
+    @apply h-full;
+}
+
+body {
+    @apply bg-kwekker-purple-dark text-kwekker-purple-lightest;
+}
+
